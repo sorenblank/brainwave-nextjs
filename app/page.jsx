@@ -1,19 +1,18 @@
+"use client"
+
 import Button from "@/app/components/Button";
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from "@/app/components/Header";
 import ButtonGradient from "@/public/svg/ButtonGradient";
 
 export default function Home() {
   return (
-    <>
-      <h1 className='text-3xl font-bold underline'>
-        Hello World
-      </h1>
-
+    <Router>
       <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
-        <Button className="mt-10" href="#login">Something</Button>
+        <Header/>
       </div>
 
-
       <ButtonGradient />
-    </>
+    </Router>
   );
 }
