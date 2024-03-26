@@ -1,14 +1,20 @@
-import Section from "./Section";
-import Button from "./Button";
+// Libraries
+import { useRef } from "react";
+import { ScrollParallax } from "react-just-parallax";
 
+// Constants
+import { heroIcons } from "@/app/lib/constants";
+
+// Components
 import Img from "./Image";
+import Button from "./Button";
+import Section from "./Section";
+import Generating from "./Generating";
 
+// Assets
 import { curve, heroBackground, robot } from "@/public";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
-import { heroIcons } from "@/app/lib/constants";
-import { ScrollParallax } from "react-just-parallax";
-import { useRef } from "react";
 
 
 const Hero = () => {
@@ -26,7 +32,7 @@ const Hero = () => {
       <div className="container relative"   >
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possiblities of Ai Chatting With{" "}
+            Explore the Possiblities  of&nbsp;Ai&nbsp;Chatting With{" "}
             <span className="inline-block relative">
               Brainwave{" "}
               <Img
@@ -61,6 +67,8 @@ const Hero = () => {
                   height={490}
                   alt="Ai"
                 />
+
+                <Generating className={`absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2`}/>
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">

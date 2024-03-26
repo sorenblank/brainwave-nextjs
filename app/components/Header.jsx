@@ -1,16 +1,23 @@
 "use client"
 
-import Img from "@/app/components/Image";
-import { navigation } from "../lib/constants";
-
-import { useLocation } from 'react-router-dom';
+// Libraries
 import { useState } from "react";
+import { useLocation } from 'react-router-dom';
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
+// Constants
+import { navigation } from "../lib/constants";
+
+// Components
+import Img from "@/app/components/Image";
 import Button from "./Button";
 
-import MenuSvg from "@/public/svg/MenuSvg";
+// Ui Components
 import { HamburgerMenu } from "./design/Header";
+
+// Assets
+import MenuSvg from "@/public/svg/MenuSvg";
+
 
 const Header = () => {
 
