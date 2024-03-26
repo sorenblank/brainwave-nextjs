@@ -14,7 +14,7 @@ import Notification from "./Notification";
 
 // Assets
 import { curve, heroBackground, robot } from "@/public";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { BackgroundCircles, BottomLine, Gradient } from "./Ui/Hero";
 
 
 

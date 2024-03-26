@@ -13,7 +13,7 @@ import Img from "@/app/components/Image";
 import Button from "./Button";
 
 // Ui Components
-import { HamburgerMenu } from "./design/Header";
+import { HamburgerMenu } from "./Ui/Header";
 
 // Assets
 import MenuSvg from "@/public/svg/MenuSvg";
