@@ -23,7 +23,7 @@ const PricingList = () => {
           </div>
 
           <Button className="w-full mb-6" href={item.price ? '/pricing' : 'mailto:siyamafroz@gmail.com'} white>
-            {item.price ? 'Get Started' : 'Contact us'}
+            {item.id === "2" ? 'Contact us' : 'Get Started'}
           </Button>
 
           <ul>
