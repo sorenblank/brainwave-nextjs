@@ -38,8 +38,7 @@ const Hero = () => {
                 className="absolute top-full left-0 w-full xl:-mt-2"
                 width={624}
                 height={28}
-                alt="curve"
-              />
+                alt="curve" />
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
@@ -63,8 +62,7 @@ const Hero = () => {
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
-                  alt="Ai"
-                />
+                  alt="Ai" />
 
                 <Generating className={`absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2`} />
 
@@ -72,7 +70,11 @@ const Hero = () => {
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
-                        <Img src={icon} width={24} height={25} alt={icon} />
+                        <Img 
+                          src={icon} 
+                          width={24} 
+                          height={25} 
+                          alt={icon} />
                       </li>
                     ))}
                   </ul>
@@ -95,8 +97,7 @@ const Hero = () => {
               className="w-full"
               width={1440}
               height={1800}
-              alt="hero"
-            />
+              alt="hero" />
           </div>
 
           <BackgroundCircles />

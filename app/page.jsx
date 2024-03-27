@@ -6,6 +6,7 @@ import Hero from "./pages/Hero";
 import Benefits from './pages/Benefits';
 import Collaboration from './pages/Collaboration';
 import Services from './pages/Services';
+import Pricing from "./pages/Pricing";
 
 // Assets
 import ButtonGradient from "@/public/svg/ButtonGradient";
@@ -21,6 +22,7 @@ export default function Home() {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
       <ButtonGradient />
     </>
