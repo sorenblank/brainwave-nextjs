@@ -3,12 +3,15 @@ import Img from "../components/Image"
 import Section from "../components/Section"
 import Heading from "../components/Heading"
 
+// Ui Components
+import { GradientLight } from "../components/Ui/Benefits"
+
 // Constants
 import { benefits } from "../lib/constants"
 
 // Assets
 import Arrow from "@/public/svg/Arrow"
-import { GradientLight } from "../components/Ui/Benefits"
+
 
 const Benefits = () => {
   return (

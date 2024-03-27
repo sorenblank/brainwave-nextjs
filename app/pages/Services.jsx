@@ -7,14 +7,16 @@ import Img from "../components/Image"
 // Ui Components
 import { PhotoChatMessage, VideoChatMessage, Gradient, VideoBar } from "../components/Ui/Services"
 
+// Constants
+import { brainwaveServices, brainwaveServicesIcons } from "../lib/constants"
+
 // Assets
 import { service1, service2, service3, check } from "@/public"
-import { brainwaveServices, brainwaveServicesIcons } from "../lib/constants"
 
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section crosses id="how-to-use">
       <div className="container">
         <Heading title="Generative AI made for creators" text="Brainwave unlocks the potential of AI-powered Applications" />
         <div className="relative">
