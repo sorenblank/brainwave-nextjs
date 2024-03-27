@@ -10,10 +10,10 @@ import { navigation } from "../lib/constants";
 
 // Components
 import Img from "@/app/components/Image";
-import Button from "./Button";
+import Button from "../components/Button";
 
 // Ui Components
-import { HamburgerMenu } from "./Ui/Header";
+import { HamburgerMenu } from "../components/Ui/Header";
 
 // Assets
 import MenuSvg from "@/public/svg/MenuSvg";

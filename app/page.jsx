@@ -4,9 +4,10 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // Layout
-import Header from "@/app/components/Header";
-import Hero from "@/app/components/Hero";
-import Benefits from '@/app/components/Benefits';
+import Header from "./pages/Header";
+import Hero from "./pages/Hero";
+import Benefits from './pages/Benefits';
+import Collaboration from './pages/Collaboration';
 
 // Assets
 import ButtonGradient from "@/public/svg/ButtonGradient";
@@ -19,6 +20,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
       <ButtonGradient />
     </Router>

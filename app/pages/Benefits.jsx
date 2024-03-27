@@ -1,22 +1,22 @@
 // Components
-import Img from "./Image"
-import Section from "./Section"
-import Heading from "./Heading"
+import Img from "../components/Image"
+import Section from "../components/Section"
+import Heading from "../components/Heading"
 
 // Constants
 import { benefits } from "../lib/constants"
 
 // Assets
 import Arrow from "@/public/svg/Arrow"
-import { GradientLight } from "./Ui/Benefits"
+import { GradientLight } from "../components/Ui/Benefits"
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="features" crosses>
       <div className="container relative z-2">
         <Heading 
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave."
+          className="md:max-w-md lg:max-w-2xl justify-center flex"
+          title="Chat Smarter, Not Harder"
         />
 
         <div className="flex flex-wrap gap-5 mb-10 justify-center">

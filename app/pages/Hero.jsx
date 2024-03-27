@@ -6,15 +6,15 @@ import { ScrollParallax } from "react-just-parallax";
 import { heroIcons } from "@/app/lib/constants";
 
 // Components
-import Img from "./Image";
-import Button from "./Button";
-import Section from "./Section";
-import Generating from "./Generating";
-import Notification from "./Notification";
+import Img from "../components/Image";
+import Button from "../components/Button";
+import Section from "../components/Section";
+import Generating from "../components/Generating";
+import Notification from "../components/Notification";
 
 // Assets
 import { curve, heroBackground, robot } from "@/public";
-import { BackgroundCircles, BottomLine, Gradient } from "./Ui/Hero";
+import { BackgroundCircles, BottomLine, Gradient } from "../components/Ui/Hero";
 
 
 
@@ -24,10 +24,9 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[5.25rem] lg:-mb-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
-      customPaddings
       id="Hero"
     >
       <div className="container relative"   >
