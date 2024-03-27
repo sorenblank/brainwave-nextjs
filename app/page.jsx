@@ -7,6 +7,8 @@ import Benefits from './pages/Features';
 import Collaboration from './pages/Services';
 import Services from './pages/Tools';
 import Pricing from "./pages/Pricing";
+import Roadmap from "./pages/Roadmap";
+import Footer from "./pages/Footer";
 
 // Assets
 import ButtonGradient from "@/public/svg/ButtonGradient";
@@ -23,6 +25,8 @@ export default function Home() {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
