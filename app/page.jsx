@@ -3,15 +3,16 @@
 // Layout
 import Header from "./pages/Header";
 import Hero from "./pages/Hero";
-import Benefits from './pages/Features';
-import Collaboration from './pages/Services';
-import Services from './pages/Tools';
+import Features from "./pages/Features";
+import Collaboration from './pages/Collaboration';
+import Services from './pages/Services';
 import Pricing from "./pages/Pricing";
 import Roadmap from "./pages/Roadmap";
 import Footer from "./pages/Footer";
 
 // Assets
 import ButtonGradient from "@/public/svg/ButtonGradient";
+
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
         <Header />
         <Hero />
-        <Benefits />
+        <Features />
         <Collaboration />
         <Services />
         <Pricing />
