@@ -3,9 +3,9 @@
 // Layout
 import Header from "./pages/Header";
 import Hero from "./pages/Hero";
-import Benefits from './pages/Benefits';
-import Collaboration from './pages/Collaboration';
-import Services from './pages/Services';
+import Benefits from './pages/Features';
+import Collaboration from './pages/Services';
+import Services from './pages/Tools';
 import Pricing from "./pages/Pricing";
 
 // Assets
