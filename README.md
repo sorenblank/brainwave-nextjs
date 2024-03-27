@@ -1,43 +1,110 @@
-# Brainwave | NextJS
-This is a modern Ai landing page made with [TailwindCSS](https://tailwindcss.com) and [Next.js](https://nextjs.org/).
+Here's the updated README.md file for your Next.js application:
 
-![Brainwave](https://github.com/sorenblank/brainwave-nextjs/blob/main/public/og-image.png "This site looks cool doesn't it?")
+```markdown
+# Brainwave | NextJS
+
+This is a modern AI landing page made with [TailwindCSS](https://tailwindcss.com) and [Next.js](https://nextjs.org/).
+
+![Brainwave](https://github.com/sorenblank/brainwave-nextjs/blob/main/public/og-image.png "Brainwave AI Landing Page")
+
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [TailwindCSS Configuration](#tailwindcss-configuration)
+- [Scripts](#scripts)
+- [Learn More](#learn-more)
+- [Deploy on Vercel](#deploy-on-vercel)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sorenblank/brainwave-nextjs.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+## Folder Structure
+
+The folder structure of the project is as follows:
+
+- `app/`: Main application folder
+  - `favicon.ico`: Favicon for the site
+  - `globals.css`: Global CSS styles
+  - `layout.jsx`: Layout component for consistent layout across pages
+  - `page.jsx`: Main page component
+  - `components/`: Reusable components
+  - `lib/`: Utility functions and constants
+    - `constants.jsx`: Constants used throughout the application
+  - `pages/`: Next.js pages
+    - `...`: Individual page components
+
+- `public/`: Public assets
+  - `og-image.png`: Open Graph image for social sharing
+
+## TailwindCSS Configuration
+
+The TailwindCSS configuration can be found in `tailwind.config.js`. It includes customizations such as:
+
+- Extended color palette
+- Custom font families
+- Additional spacing utilities
+- Custom gradients and background images
+- Utility classes for typography and buttons
+
+## Scripts
+
+- `npm run dev`: Runs the development server
+- `npm run build`: Builds the production-ready application
+- `npm start`: Starts the production server
+- `npm run lint`: Runs ESLint for linting
+
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js and TailwindCSS, check out the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [TailwindCSS Documentation](https://tailwindcss.com/docs) - explore TailwindCSS utility classes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can also check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) and [TailwindCSS GitHub repository](https://github.com/tailwindlabs/tailwindcss) for more details.
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details on deploying your application.
 
 ## Contributing
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
+
+Contributions are welcome and encouraged! If you want to contribute to this project, please follow these steps:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -46,26 +113,5 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 ## License
-```
-MIT License
 
-Copyright (c) 2024 Siyam Afroz
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is licensed under the [MIT License](LICENSE).
