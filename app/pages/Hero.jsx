@@ -20,8 +20,6 @@ import { BackgroundCircles, BottomLine, Gradient } from "../components/Ui/Hero";
 
 const Hero = () => {
 
-  const parallaxRef = useRef(null);
-
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem] lg:-mb-[5.25rem]"
