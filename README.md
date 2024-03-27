@@ -1,117 +1,106 @@
-Here's the updated README.md file for your Next.js application:
-
-```markdown
 # Brainwave | NextJS
 
-This is a modern AI landing page made with [TailwindCSS](https://tailwindcss.com) and [Next.js](https://nextjs.org/).
+Welcome to the Brainwave project! This is a modern AI landing page crafted with the sleek TailwindCSS framework and the powerful Next.js library.
 
-![Brainwave](https://github.com/sorenblank/brainwave-nextjs/blob/main/public/og-image.png "Brainwave AI Landing Page")
+![Brainwave](https://github.com/sorenblank/brainwave-nextjs/blob/main/public/og-image.png "This site looks cool doesn't it?")
 
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [TailwindCSS Configuration](#tailwindcss-configuration)
-- [Scripts](#scripts)
-- [Learn More](#learn-more)
-- [Deploy on Vercel](#deploy-on-vercel)
-- [Contributing](#contributing)
-- [License](#license)
+## Overview
+
+Brainwave is designed to be a cutting-edge AI landing page that leverages the best of modern web technologies. It's built on Next.js, styled with TailwindCSS, and structured to provide an intuitive user experience.
+
+### Project Structure
+
+The project follows a standard Next.js application structure with a few custom additions:
+
+```
+.
+├── app                     # Application core files
+│   ├── components          # Reusable UI components
+│   │   └── ... 
+│   ├── lib                 # Utility functions and constants
+│   │   └── ... 
+│   ├── pages               # Page components for routing
+│   │   └── ... 
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── page.jsx
+│   └── layout.jsx          # Page layouts and routing
+│
+├── public                  # Static assets
+├── LICENSE
+└── README.md
+```
+### Dependencies
+
+Brainwave's functionality is powered:
+
+- **next**: The React framework for production.
+- **react** & **react-dom**: Libraries for building user interfaces.
+- **react-just-parallax**: Parallax effects for React components.
+- **react-router-dom**: DOM bindings for React Router.
+- **scroll-lock**: Prevent scrolling on the body element.
+
+For development, we use:
+
+- **autoprefixer**: PostCSS plugin to parse CSS and add vendor prefixes.
+- **eslint**: The pluggable linting utility for JavaScript and JSX.
+- **postcss**: A tool for transforming CSS with JavaScript.
+- **tailwindcss**: A utility-first CSS framework for rapid UI development.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps:
+To get a local copy up and running, follow these simple steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sorenblank/brainwave-nextjs.git
-   ```
+1. Clone the repository.
+2. Install project dependencies with `npm install`.
+3. Start the development server:
 
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   # or
-   bun install
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-3. Run the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   # or
-   bun dev
-   ```
+Navigate to [http://localhost:3000](http://localhost:3000) to view the application in action.
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
+## Editing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To make changes to the application:
 
-## Folder Structure
-
-The folder structure of the project is as follows:
-
-- `app/`: Main application folder
-  - `favicon.ico`: Favicon for the site
-  - `globals.css`: Global CSS styles
-  - `layout.jsx`: Layout component for consistent layout across pages
-  - `page.jsx`: Main page component
-  - `components/`: Reusable components
-  - `lib/`: Utility functions and constants
-    - `constants.jsx`: Constants used throughout the application
-  - `pages/`: Next.js pages
-    - `...`: Individual page components
-
-- `public/`: Public assets
-  - `og-image.png`: Open Graph image for social sharing
-
-## TailwindCSS Configuration
-
-The TailwindCSS configuration can be found in `tailwind.config.js`. It includes customizations such as:
-
-- Extended color palette
-- Custom font families
-- Additional spacing utilities
-- Custom gradients and background images
-- Utility classes for typography and buttons
-
-## Scripts
-
-- `npm run dev`: Runs the development server
-- `npm run build`: Builds the production-ready application
-- `npm start`: Starts the production server
-- `npm run lint`: Runs ESLint for linting
+- Edit page layouts in `app/layout.jsx`.
+- Modify or create new components within the `app/components/` directory.
+- Add or update styles in `app/globals.css`.
 
 ## Learn More
 
-To learn more about Next.js and TailwindCSS, check out the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- [TailwindCSS Documentation](https://tailwindcss.com/docs) - Learn how to style your app efficiently.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [TailwindCSS Documentation](https://tailwindcss.com/docs) - explore TailwindCSS utility classes.
+## Deployment
 
-You can also check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) and [TailwindCSS GitHub repository](https://github.com/tailwindlabs/tailwindcss) for more details.
+Deploying your Next.js app is straightforward with the Vercel Platform, optimized for Next.js projects.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details on deploying your application.
+- [Vercel Deployment](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) - Deploy with zero configuration.
 
 ## Contributing
 
-Contributions are welcome and encouraged! If you want to contribute to this project, please follow these steps:
+We welcome contributions from the community. Here's how you can contribute:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the project repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+Distributed under the MIT License. See [LICENSE](https://github.com/sorenblank/brainwave-nextjs/blob/main/LICENSE) for more information.
+
+## Acknowledgements
+
+This project was made with the help of [Adrian Hajdin's](https://github.com/adrianhajdin) JSMastery videos.
